@@ -1,10 +1,11 @@
 import "./style.scss";
+import Hero from "./Hero";
 
 const index = () => {
     return (
-        <section>
-            <h1>Layout</h1>
-        </section>
+        <div>
+           <Hero /> 
+        </div>
     );
 };
 

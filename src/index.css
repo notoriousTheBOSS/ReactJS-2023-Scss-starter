@@ -3,27 +3,70 @@
 @tailwind utilities;
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.qanaqadirstrelka:hover .qanaqadirbutton {
+    display: flex;
+    z-index: 30;
+}
+.qanaqadirstrelka:hover .qanaqadirdiv {
+    display: block;
+    z-index: 30;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 body {
-  font-family: sans-serif;
+    font-family: sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+button {
+    outline: none;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+img {
+    cursor: pointer;
+}
+p {
+    cursor: pointer;
+}
 
-.container{
-  max-width: 1240px;
-  margin: 0 auto;
-  padding: 0 20px;
+@font-face {
+    font-family: Regular;
+    src: url(./assets/fonts/Inter-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Medium;
+    src: url(./assets/fonts/Inter-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: RMedium;
+    src: url(./assets/fonts/Roboto-Medium.ttf);
+    font-weight: 500;
 }
